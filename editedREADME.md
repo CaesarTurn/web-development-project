@@ -1,7 +1,3 @@
-# web-development-project
-
-# **Home**
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
