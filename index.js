@@ -8,11 +8,11 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
-app.post('/submit-form', (req, res) => {
+app.post('/', (req, res) => {
     const username = req.body.username;
     res.send('Username is $cturn193');
 });
 
 app.listen(port, () => {
-    console.log('Server running on https://caesarturn.github.io/web-development-project/Subscribed.html:${port}');
+    console.log('Server running on https://caesarturn.github.io/web-development-project/);
 });
