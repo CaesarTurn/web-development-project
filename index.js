@@ -14,5 +14,5 @@ app.post('https://caesarturn.github.io/web-development-project/Subscribed.html',
 });
 
 app.listen(port, () => {
-    console.log('Server running on https://caesarturn.github.io/web-development-project');
+    console.log('Server running on https://caesarturn.github.io/web-development-project/Subscribed.html');
 });
