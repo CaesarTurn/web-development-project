@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
-app.post('/Subscribed.html', (req, res) => {
+app.post('https://caesarturn.github.io/web-development-project/Subscribed.html', (req, res) => {
     const username = req.body.username;
     res.send('Username is $cturn193');
 });
