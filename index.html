@@ -23,10 +23,6 @@
   <script>
     const formEl=document.querySelector('.form');
     formEl.addEventListener('submit', () =>{
-    const formData = new formData(formEl);
-    const data = Object.fromEntries(formData);
-      
-    fetch('https://caesarturn.github.io/web-development-project/Subscribed.html', {method: 'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data));
     });
   </script>
 
