@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
-app.post('/', (req, res) => {
+app.post('Subscribed.html', (req, res) => {
     const username = req.body.username;
     res.send('Username is $cturn193');
 });
